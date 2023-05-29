@@ -1,0 +1,1494 @@
+{
+	"camera" : 
+	{
+		"center" : "0.00000 0.00000 -1.00000",
+		"eye" : "0.00000 0.00000 0.00000",
+		"up" : "0.00000 1.00000 0.00000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.30000 0.30000 0.30000",
+		"bloom" : false,
+		"bloomhdrfeather" : 0.1,
+		"bloomhdriterations" : 8,
+		"bloomhdrscatter" : 1.619,
+		"bloomhdrstrength" : 2.0,
+		"bloomhdrthreshold" : 1.0,
+		"bloomstrength" : 2.0,
+		"bloomthreshold" : 0.64999998,
+		"camerafade" : true,
+		"cameraparallax" : true,
+		"cameraparallaxamount" : 0.1,
+		"cameraparallaxdelay" : 0.1,
+		"cameraparallaxmouseinfluence" : 0.1,
+		"camerapreview" : true,
+		"camerashake" : 
+		{
+			"user" : "camerashake",
+			"value" : true
+		},
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1.0,
+		"camerashakespeed" : 1.0,
+		"clearcolor" : "0.00000 0.00000 0.00000",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"hdr" : false,
+		"nearz" : 0.0099999998,
+		"orthogonalprojection" : 
+		{
+			"height" : 1440,
+			"width" : 5120
+		},
+		"skylightcolor" : "0.30000 0.30000 0.30000",
+		"zoom" : 1.0
+	},
+	"objects" : 
+	[
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "-0.00000 -0.00000 -0.81050",
+			"brightness" : 1.0,
+			"color" : 
+			{
+				"user" : "barcolor",
+				"value" : "0.00000 0.00000 0.00000"
+			},
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/colorkey/effect.json",
+					"id" : 346,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"alpha" : 1,
+								"color" : "1.00000 1.00000 1.00000",
+								"fuzziness" : 0.07,
+								"tolerance" : 0.88
+							},
+							"id" : 347
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 97,
+			"image" : "models/util/solidlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Solid Bar",
+			"origin" : "2644.43091 751.06573 0.00000",
+			"parallaxDepth" : "1.50000 1.50000",
+			"perspective" : false,
+			"scale" : "0.64797 2.35994 1.00000",
+			"size" : "500.00000 3000.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "bar",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "-0.00000 -0.00000 -0.73682",
+			"brightness" : 1.0,
+			"color" : "0.69020 0.14510 0.17255",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 344,
+			"image" : "models/util/solidlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Solid",
+			"origin" : "930.29114 859.47766 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "5.62528 12.54738 3.63459",
+			"size" : "512.00000 512.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 340,
+			"image" : "models/gharliera-sfdfer8.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "gharliera-sfdfer8",
+			"origin" : "1040.42188 703.39886 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.33491 1.33491 1.33491",
+			"size" : "1080.00000 1527.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 335,
+			"image" : "models/gharliera-sfdfer9.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "gharliera-sfdfer9",
+			"origin" : "4112.07959 708.22711 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.33491 1.33491 1.33491",
+			"size" : "1080.00000 1527.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 
+			{
+				"user" : "shadowopacity",
+				"value" : 0.5
+			},
+			"angles" : "-0.00000 -0.00000 -0.81050",
+			"brightness" : 1.0,
+			"color" : "0.34510 0.34510 0.34510",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 169,
+			"image" : "models/util/solidlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Solid Bar Shadow",
+			"origin" : "2671.74487 722.34442 0.00000",
+			"parallaxDepth" : "0.75000 0.75000",
+			"perspective" : false,
+			"scale" : "0.64797 2.35994 1.00000",
+			"size" : "500.00000 3000.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "barshadow",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 
+			{
+				"user" : "shadowopacity",
+				"value" : 0.5
+			},
+			"angles" : "-0.00000 -0.00000 -0.79921",
+			"brightness" : 1.0,
+			"color" : "0.34510 0.34510 0.34510",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/skew/effect.json",
+					"id" : 1305,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"MODE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"bottom" : 2,
+								"left" : -0.64999998,
+								"right" : 0.30000001,
+								"top" : 2
+							},
+							"id" : 1306
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 1304,
+			"image" : "models/util/solidlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Solid Streak r shadow",
+			"origin" : "2109.60522 -253.10016 0.00000",
+			"parallaxDepth" : "0.75000 0.75000",
+			"perspective" : false,
+			"scale" : "-0.08272 1.00000 1.00000",
+			"size" : "500.00000 2000.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "rightstreaksshadows",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 
+			{
+				"user" : "shadowopacity",
+				"value" : 0.5
+			},
+			"angles" : "-0.00000 -0.00000 -0.79921",
+			"brightness" : 1.0,
+			"color" : "0.34510 0.34510 0.34510",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/skew/effect.json",
+					"id" : 1299,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"MODE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"bottom" : 2,
+								"left" : -0.64999998,
+								"right" : 0.30000001,
+								"top" : 2
+							},
+							"id" : 1300
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 1298,
+			"image" : "models/util/solidlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Solid Streak r shadow",
+			"origin" : "1884.13379 -650.70197 0.00000",
+			"parallaxDepth" : "0.75000 0.75000",
+			"perspective" : false,
+			"scale" : "-0.08272 1.00000 1.00000",
+			"size" : "500.00000 2000.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "rightstreaksshadows",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 
+			{
+				"user" : "shadowopacity",
+				"value" : 0.5
+			},
+			"angles" : "-0.00000 -0.00000 -0.78842",
+			"brightness" : 1.0,
+			"color" : "0.34510 0.34510 0.34510",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/skew/effect.json",
+					"id" : 1293,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"MODE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"bottom" : 2,
+								"left" : -0.64999998,
+								"right" : 0.30000001,
+								"top" : 2
+							},
+							"id" : 1294
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 1292,
+			"image" : "models/util/solidlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Solid Streak r shadow",
+			"origin" : "1522.37610 -594.86615 0.00000",
+			"parallaxDepth" : "0.75000 0.75000",
+			"perspective" : false,
+			"scale" : "0.13376 1.00000 1.00000",
+			"size" : "500.00000 2000.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "rightstreaksshadows",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 
+			{
+				"user" : "shadowopacity",
+				"value" : 0.5
+			},
+			"angles" : "-0.00000 -0.00000 -0.77800",
+			"brightness" : 1.0,
+			"color" : "0.00000 0.00000 0.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/skew/effect.json",
+					"id" : 1311,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"MODE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"bottom" : 2,
+								"left" : -0.64999998,
+								"right" : 0.30000001,
+								"top" : 2
+							},
+							"id" : 1312
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 1310,
+			"image" : "models/util/solidlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Solid Streak l shadow",
+			"origin" : "3931.22681 2464.44995 0.00000",
+			"parallaxDepth" : "0.75000 0.75000",
+			"perspective" : false,
+			"scale" : "0.18083 1.00000 1.00000",
+			"size" : "500.00000 2000.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "leftstreaksshadows",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 
+			{
+				"user" : "shadowopacity",
+				"value" : 0.5
+			},
+			"angles" : "-0.00000 -0.00000 -0.77800",
+			"brightness" : 1.0,
+			"color" : "0.00000 0.00000 0.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/skew/effect.json",
+					"id" : 1317,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"MODE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"bottom" : 2,
+								"left" : -0.64999998,
+								"right" : 0.30000001,
+								"top" : 2
+							},
+							"id" : 1318
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 1316,
+			"image" : "models/util/solidlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Solid Streak l shadow",
+			"origin" : "4075.01221 2791.33618 0.00000",
+			"parallaxDepth" : "0.75000 0.75000",
+			"perspective" : false,
+			"scale" : "0.18083 1.00000 1.00000",
+			"size" : "500.00000 2000.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "leftstreaksshadows",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 
+			{
+				"user" : "shadowopacity",
+				"value" : 0.5
+			},
+			"angles" : "-0.00000 -0.00000 -0.79921",
+			"brightness" : 1.0,
+			"color" : "0.00000 0.00000 0.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/skew/effect.json",
+					"id" : 1323,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"MODE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"bottom" : 2,
+								"left" : -0.64999998,
+								"right" : 0.30000001,
+								"top" : 2
+							},
+							"id" : 1324
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 1322,
+			"image" : "models/util/solidlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Solid Streak l shadow",
+			"origin" : "3771.60742 2049.96777 0.00000",
+			"parallaxDepth" : "0.75000 0.75000",
+			"perspective" : false,
+			"scale" : "-0.08272 1.00000 1.00000",
+			"size" : "500.00000 2000.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "leftstreaksshadows",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "-0.00000 -0.00000 -0.77800",
+			"brightness" : 1.0,
+			"color" : 
+			{
+				"user" : "leftstreakscolor",
+				"value" : "0.00000 0.00000 0.00000"
+			},
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/skew/effect.json",
+					"id" : 1259,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"MODE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"bottom" : 2,
+								"left" : -0.64999998,
+								"right" : 0.30000001,
+								"top" : 2
+							},
+							"id" : 1260
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 1257,
+			"image" : "models/util/solidlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Solid Streak l",
+			"origin" : "3832.79419 2404.42163 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.18083 1.00000 1.00000",
+			"size" : "500.00000 2000.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "leftstreaks1",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "-0.00000 -0.00000 -0.77800",
+			"brightness" : 1.0,
+			"color" : 
+			{
+				"user" : "leftstreakscolor",
+				"value" : "0.00000 0.00000 0.00000"
+			},
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/skew/effect.json",
+					"id" : 1269,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"MODE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"bottom" : 2,
+								"left" : -0.64999998,
+								"right" : 0.30000001,
+								"top" : 2
+							},
+							"id" : 1270
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 1268,
+			"image" : "models/util/solidlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Solid Streak l",
+			"origin" : "4000.15479 2733.87988 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.18083 1.00000 1.00000",
+			"size" : "500.00000 2000.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "leftstreaks1",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "-0.00000 -0.00000 -0.79921",
+			"brightness" : 1.0,
+			"color" : 
+			{
+				"user" : "leftstreakscolor",
+				"value" : "0.00000 0.00000 0.00000"
+			},
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/skew/effect.json",
+					"id" : 1263,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"MODE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"bottom" : 2,
+								"left" : -0.64999998,
+								"right" : 0.30000001,
+								"top" : 2
+							},
+							"id" : 1264
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 1262,
+			"image" : "models/util/solidlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Solid Streak l",
+			"origin" : "3641.90625 1957.80017 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "-0.08272 1.00000 1.00000",
+			"size" : "500.00000 2000.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "leftstreaks1",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "-0.00000 -0.00000 -0.79921",
+			"brightness" : 1.0,
+			"color" : 
+			{
+				"user" : "rightstreakscolor",
+				"value" : "0.67843 0.13725 0.16863"
+			},
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/skew/effect.json",
+					"id" : 1275,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"MODE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"bottom" : 2,
+								"left" : -0.64999998,
+								"right" : 0.30000001,
+								"top" : 2
+							},
+							"id" : 1276
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 1274,
+			"image" : "models/util/solidlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Solid Streak r",
+			"origin" : "2141.32544 -172.61774 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "-0.08272 1.00000 1.00000",
+			"size" : "500.00000 2000.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "leftstreaks",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "-0.00000 -0.00000 -0.78842",
+			"brightness" : 1.0,
+			"color" : 
+			{
+				"user" : "rightstreakscolor",
+				"value" : "0.67843 0.13725 0.16863"
+			},
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/skew/effect.json",
+					"id" : 1287,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"MODE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"bottom" : 2,
+								"left" : -0.64999998,
+								"right" : 0.30000001,
+								"top" : 2
+							},
+							"id" : 1288
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 1286,
+			"image" : "models/util/solidlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Solid Streak r",
+			"origin" : "1559.65466 -517.41272 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.13376 1.00000 1.00000",
+			"size" : "500.00000 2000.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "leftstreaks",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "-0.00000 -0.00000 -0.79921",
+			"brightness" : 1.0,
+			"color" : 
+			{
+				"user" : "rightstreakscolor",
+				"value" : "0.67843 0.13725 0.16863"
+			},
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/skew/effect.json",
+					"id" : 1281,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"MODE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"bottom" : 2,
+								"left" : -0.64999998,
+								"right" : 0.30000001,
+								"top" : 2
+							},
+							"id" : 1282
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 1280,
+			"image" : "models/util/solidlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Solid Streak r",
+			"origin" : "1952.20752 -528.31445 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "-0.08272 1.00000 1.00000",
+			"size" : "500.00000 2000.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "leftstreaks",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 88,
+			"instanceoverride" : 
+			{
+				"colorn" : 
+				{
+					"user" : "audiodotsleftcolor",
+					"value" : "0.00000 0.00000 0.00000"
+				},
+				"count" : 0.60000002,
+				"id" : 89,
+				"lifetime" : 0.23,
+				"rate" : 
+				{
+					"script" : "'use strict';\n\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 2,\n\t\tmin: 0,\n\t\tmax: 20,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\t\n/**\n * Configure these to control smoothing and the frequency.\n */\nlet frequencyResolution = 32; // Must be 16, 32 or 64 per channel.\n\n/**\n * This creates a permanent link to the audio response data.\n */\nlet audioBuffer = engine.registerAudioBuffers(frequencyResolution);\nvar smoothValue = 0;\nvar initialValue;\n\n/**\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tlet audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\n/**\n */\nexport function init(value) {\n\tinitialValue = value;\n}\n\n",
+					"scriptproperties" : 
+					{
+						"frequency" : 1,
+						"maxvalue" : 1,
+						"minvalue" : 0.1,
+						"smoothing" : 10
+					},
+					"value" : 1.0
+				},
+				"size" : 0.5
+			},
+			"locktransforms" : false,
+			"name" : "Audio_Dots_copy1",
+			"origin" : "-656.28491 1096.10107 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/Audio_Dots_copy1.json",
+			"scale" : "1.00000 1.00000 1.00000",
+			"visible" : 
+			{
+				"user" : "audiodotsleft",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 80,
+			"instanceoverride" : 
+			{
+				"colorn" : 
+				{
+					"user" : "audiodotsleftcolor",
+					"value" : "0.00000 0.00000 0.00000"
+				},
+				"count" : 0.60000002,
+				"id" : 71,
+				"lifetime" : 0.23,
+				"rate" : 
+				{
+					"script" : "'use strict';\n\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 2,\n\t\tmin: 0,\n\t\tmax: 20,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\t\n/**\n * Configure these to control smoothing and the frequency.\n */\nlet frequencyResolution = 32; // Must be 16, 32 or 64 per channel.\n\n/**\n * This creates a permanent link to the audio response data.\n */\nlet audioBuffer = engine.registerAudioBuffers(frequencyResolution);\nvar smoothValue = 0;\nvar initialValue;\n\n/**\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tlet audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\n/**\n */\nexport function init(value) {\n\tinitialValue = value;\n}\n\n",
+					"scriptproperties" : 
+					{
+						"frequency" : 1,
+						"maxvalue" : 1,
+						"minvalue" : 0.1,
+						"smoothing" : 10
+					},
+					"value" : 1.0
+				},
+				"size" : 0.5
+			},
+			"locktransforms" : false,
+			"name" : "Audio_Dots_copy1",
+			"origin" : "-656.28491 237.32178 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/Audio_Dots_copy1.json",
+			"scale" : "1.00000 1.00000 1.00000",
+			"visible" : 
+			{
+				"user" : "audiodotsleft",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 90,
+			"instanceoverride" : 
+			{
+				"colorn" : 
+				{
+					"user" : "audiodotscolor",
+					"value" : "1.00000 0.00000 0.00000"
+				},
+				"count" : 0.60000002,
+				"id" : 77,
+				"lifetime" : 0.23,
+				"rate" : 
+				{
+					"script" : "'use strict';\n\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 2,\n\t\tmin: 0,\n\t\tmax: 20,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\t\n/**\n * Configure these to control smoothing and the frequency.\n */\nlet frequencyResolution = 32; // Must be 16, 32 or 64 per channel.\n\n/**\n * This creates a permanent link to the audio response data.\n */\nlet audioBuffer = engine.registerAudioBuffers(frequencyResolution);\nvar smoothValue = 0;\nvar initialValue;\n\n/**\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tlet audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\n/**\n */\nexport function init(value) {\n\tinitialValue = value;\n}\n\n",
+					"scriptproperties" : 
+					{
+						"frequency" : 1,
+						"maxvalue" : 1,
+						"minvalue" : 0.1,
+						"smoothing" : 10
+					},
+					"value" : 1.0
+				},
+				"size" : 0.5
+			},
+			"locktransforms" : false,
+			"name" : "Audio_Dots_copy1",
+			"origin" : "5742.87109 1029.37329 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/Audio_Dots_copy1.json",
+			"scale" : "-1.00000 1.00000 1.00000",
+			"visible" : 
+			{
+				"user" : "audiodots",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 85,
+			"instanceoverride" : 
+			{
+				"colorn" : 
+				{
+					"user" : "audiodotscolor",
+					"value" : "1.00000 0.00000 0.00000"
+				},
+				"count" : 0.60000002,
+				"id" : 63,
+				"lifetime" : 0.23,
+				"rate" : 
+				{
+					"script" : "'use strict';\n\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 2,\n\t\tmin: 0,\n\t\tmax: 20,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\t\n/**\n * Configure these to control smoothing and the frequency.\n */\nlet frequencyResolution = 32; // Must be 16, 32 or 64 per channel.\n\n/**\n * This creates a permanent link to the audio response data.\n */\nlet audioBuffer = engine.registerAudioBuffers(frequencyResolution);\nvar smoothValue = 0;\nvar initialValue;\n\n/**\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tlet audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\n/**\n */\nexport function init(value) {\n\tinitialValue = value;\n}\n\n",
+					"scriptproperties" : 
+					{
+						"frequency" : 1,
+						"maxvalue" : 1,
+						"minvalue" : 0.1,
+						"smoothing" : 10
+					},
+					"value" : 1.0
+				},
+				"size" : 0.5
+			},
+			"locktransforms" : false,
+			"name" : "Audio_Dots_copy1",
+			"origin" : "5742.87109 237.32178 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/Audio_Dots_copy1.json",
+			"scale" : "-1.00000 1.00000 1.00000",
+			"visible" : 
+			{
+				"user" : "audiodots",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "-0.00000 -0.00000 -0.81164",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 349,
+			"image" : "models/util/solidlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Solid",
+			"origin" : "2670.14087 768.45551 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.61271 13.80906 1.00000",
+			"size" : "512.00000 512.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alpha" : 1.0,
+			"anchor" : "none",
+			"angles" : "0.00000 -0.00000 0.75298",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : 
+			{
+				"user" : "clockcolor",
+				"value" : "0.00000 0.00000 0.00000"
+			},
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"font" : "fonts/Alcubierre.otf",
+			"horizontalalign" : "center",
+			"id" : 100,
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Clock l",
+			"opaquebackground" : false,
+			"origin" : "2282.79346 423.99506 0.00000",
+			"padding" : 32,
+			"parallaxDepth" : "1.50000 1.50000",
+			"perspective" : false,
+			"pointsize" : 54.0,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "449.00000 263.00000",
+			"solid" : true,
+			"text" : 
+			{
+				"script" : "'use strict';\n\nexport var scriptProperties = createScriptProperties()\n\t// Whether you want a 24h or 12h style format\n\t.addCheckbox({\n\t\tname: 'use24hFormat',\n\t\tlabel: 'ui_editor_properties_use_24h_format',\n\t\tvalue: true\n\t})\n\t// Whether you want to see the seconds or not\n\t.addCheckbox({\n\t\tname: 'showSeconds',\n\t\tlabel: 'ui_editor_properties_show_seconds',\n\t\tvalue: false\n\t})\n\t// This will be used to separate each element\n\t.addText({\n\t\tname: 'delimiter',\n\t\tlabel: 'ui_editor_properties_delimiter',\n\t\tvalue: ':'\n\t})\n\t.finish();\n\n/**\n * @param {String} value (for property 'text')\n */\nexport function update(value) {\n\tlet time = new Date();\n\tvar hours = time.getHours();\n\tif (!scriptProperties.use24hFormat) {\n\t\thours %= 12;\n\t\tif (hours == 0) {\n\t\t\thours = 12;\n\t\t}\n\t}\n\thours = (\"00\" + hours).slice(-2);\n\tlet minutes = (\"00\" + time.getMinutes()).slice(-2);\n\tvalue = hours + scriptProperties.delimiter + minutes;\n\tif (scriptProperties.showSeconds) {\n\t\tlet seconds = (\"00\" + time.getSeconds()).slice(-2);\n\t\tvalue += scriptProperties.delimiter + seconds;\n\t}\n\treturn value;\n}\n",
+				"scriptproperties" : 
+				{
+					"delimiter" : ":",
+					"showSeconds" : false,
+					"use24hFormat" : 
+					{
+						"user" : "_24hrclock",
+						"value" : false
+					}
+				},
+				"value" : "12:34"
+			},
+			"verticalalign" : "center",
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "1",
+					"name" : "clock"
+				},
+				"value" : true
+			}
+		},
+		{
+			"alpha" : 1.0,
+			"anchor" : "none",
+			"angles" : "0.00000 -0.00000 0.75298",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : 
+			{
+				"user" : "clockcolor",
+				"value" : "0.00000 0.00000 0.00000"
+			},
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"font" : "fonts/Alcubierre.otf",
+			"horizontalalign" : "center",
+			"id" : 108,
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Clock r",
+			"opaquebackground" : false,
+			"origin" : "2924.10205 1025.01526 0.00000",
+			"padding" : 32,
+			"parallaxDepth" : "1.50000 1.50000",
+			"perspective" : false,
+			"pointsize" : 54.0,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "449.00000 263.00000",
+			"solid" : true,
+			"text" : 
+			{
+				"script" : "'use strict';\n\nexport var scriptProperties = createScriptProperties()\n\t// Whether you want a 24h or 12h style format\n\t.addCheckbox({\n\t\tname: 'use24hFormat',\n\t\tlabel: 'ui_editor_properties_use_24h_format',\n\t\tvalue: true\n\t})\n\t// Whether you want to see the seconds or not\n\t.addCheckbox({\n\t\tname: 'showSeconds',\n\t\tlabel: 'ui_editor_properties_show_seconds',\n\t\tvalue: false\n\t})\n\t// This will be used to separate each element\n\t.addText({\n\t\tname: 'delimiter',\n\t\tlabel: 'ui_editor_properties_delimiter',\n\t\tvalue: ':'\n\t})\n\t.finish();\n\n/**\n * @param {String} value (for property 'text')\n */\nexport function update(value) {\n\tlet time = new Date();\n\tvar hours = time.getHours();\n\tif (!scriptProperties.use24hFormat) {\n\t\thours %= 12;\n\t\tif (hours == 0) {\n\t\t\thours = 12;\n\t\t}\n\t}\n\thours = (\"00\" + hours).slice(-2);\n\tlet minutes = (\"00\" + time.getMinutes()).slice(-2);\n\tvalue = hours + scriptProperties.delimiter + minutes;\n\tif (scriptProperties.showSeconds) {\n\t\tlet seconds = (\"00\" + time.getSeconds()).slice(-2);\n\t\tvalue += scriptProperties.delimiter + seconds;\n\t}\n\treturn value;\n}\n",
+				"scriptproperties" : 
+				{
+					"delimiter" : ":",
+					"showSeconds" : false,
+					"use24hFormat" : 
+					{
+						"user" : "_24hrclock",
+						"value" : false
+					}
+				},
+				"value" : "12:34"
+			},
+			"verticalalign" : "center",
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "2",
+					"name" : "clock"
+				},
+				"value" : false
+			}
+		},
+		{
+			"angles" : "0.00000 0.00000 -1.57080",
+			"id" : 110,
+			"instanceoverride" : 
+			{
+				"colorn" : 
+				{
+					"user" : "leftfirecolor",
+					"value" : "0.00000 0.00000 0.00000"
+				},
+				"id" : 111,
+				"rate" : 
+				{
+					"script" : "'use strict';\n\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 2,\n\t\tmin: 0,\n\t\tmax: 20,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\t\n/**\n * Configure these to control smoothing and the frequency.\n */\nlet frequencyResolution = 32; // Must be 16, 32 or 64 per channel.\n\n/**\n * This creates a permanent link to the audio response data.\n */\nlet audioBuffer = engine.registerAudioBuffers(frequencyResolution);\nvar smoothValue = 0;\nvar initialValue;\n\n/**\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tlet audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\n/**\n */\nexport function init(value) {\n\tinitialValue = value;\n}\n\n",
+					"scriptproperties" : 
+					{
+						"frequency" : 0,
+						"maxvalue" : 1.2,
+						"minvalue" : 0.80000001,
+						"smoothing" : 2.0
+					},
+					"value" : 1.0
+				}
+			},
+			"locktransforms" : false,
+			"name" : "Wildfire left",
+			"origin" : "-65.97846 686.83392 0.00000",
+			"parallaxDepth" : "0.10000 0.10000",
+			"particle" : "particles/presets/wildfire.json",
+			"scale" : "1.55249 1.36497 1.00000",
+			"visible" : 
+			{
+				"user" : "leftfire",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 0.00000 1.57080",
+			"id" : 153,
+			"instanceoverride" : 
+			{
+				"colorn" : 
+				{
+					"user" : "rightfirecolor",
+					"value" : "1.00000 0.00000 0.00000"
+				},
+				"id" : 155,
+				"rate" : 
+				{
+					"script" : "'use strict';\n\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 2,\n\t\tmin: 0,\n\t\tmax: 20,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\t\n/**\n * Configure these to control smoothing and the frequency.\n */\nlet frequencyResolution = 32; // Must be 16, 32 or 64 per channel.\n\n/**\n * This creates a permanent link to the audio response data.\n */\nlet audioBuffer = engine.registerAudioBuffers(frequencyResolution);\nvar smoothValue = 0;\nvar initialValue;\n\n/**\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tlet audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\n/**\n */\nexport function init(value) {\n\tinitialValue = value;\n}\n\n",
+					"scriptproperties" : 
+					{
+						"frequency" : 0,
+						"maxvalue" : 1.2,
+						"minvalue" : 0.80000001,
+						"smoothing" : 2.0
+					},
+					"value" : 1.0
+				}
+			},
+			"locktransforms" : false,
+			"name" : "Wildfire right",
+			"origin" : "5182.66113 686.81433 0.00000",
+			"parallaxDepth" : "0.10000 0.10000",
+			"particle" : "particles/presets/wildfire.json",
+			"scale" : "1.55249 1.36497 1.00000",
+			"visible" : 
+			{
+				"user" : "rightfire",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/tint/effect.json",
+					"id" : 1391,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"BLENDMODE" : 26
+							},
+							"constantshadervalues" : 
+							{
+								"alpha" : 1.0,
+								"color" : 
+								{
+									"user" : "customtint",
+									"value" : "0.00000 0.00000 1.00000"
+								}
+							},
+							"id" : 1392
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 1389,
+			"image" : "models/util/fullscreenlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Custom Tint",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "colortint",
+				"value" : false
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 26,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/spin/effect.json",
+					"id" : 1368,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"center" : "0.5 0.5",
+								"speed" : 1.0
+							},
+							"id" : 1369
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 1334,
+			"image" : "models/workshop/2093591151/r_angle.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "r_angle",
+			"origin" : "2861.54028 1781.59619 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "50.00000 50.00000 1.00000",
+			"size" : "256.00000 256.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "1",
+					"name" : "rgb"
+				},
+				"value" : false
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 26,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/scroll/effect.json",
+					"id" : 215,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"repeat" : "1 1",
+								"speedx" : 0.40000001,
+								"speedy" : 0
+							},
+							"id" : 216
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 211,
+			"image" : "models/workshop/2093591151/r_linear.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "r_linear",
+			"origin" : "2560.00000 720.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "31.25169 31.25169 31.25169",
+			"size" : "256.00000 256.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "2",
+					"name" : "rgb"
+				},
+				"value" : false
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/vhs/effect.json",
+					"id" : 73,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"BLENDMODE" : 12,
+								"GREYSCALE" : 0,
+								"INVERTARTIFACTS" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"artifacts" : 0,
+								"chromatic" : 0.15000001,
+								"distortionspeed" : 0,
+								"distortionstrength" : 0,
+								"distortionwidth" : 0,
+								"scale" : 0.0099999998,
+								"strength" : 1.0
+							},
+							"id" : 93,
+							"textures" : [ null, "util/noise" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 70,
+			"image" : "models/util/fullscreenlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "VHS",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "vhs",
+				"value" : true
+			}
+		},
+		{
+			"alpha" : 
+			{
+				"animation" : 
+				{
+					"c0" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 1
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -0.36187497,
+								"y" : 0.14031339
+							},
+							"frame" : 301,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 0.36187497,
+								"y" : -0.14031339
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -0.8602497
+						}
+					],
+					"options" : 
+					{
+						"fps" : 30,
+						"length" : 300,
+						"mode" : "single"
+					}
+				},
+				"value" : 1.0
+			},
+			"anchor" : "none",
+			"angles" : "0.00000 0.00000 0.78540",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"font" : "fonts/Alcubierre.otf",
+			"horizontalalign" : "center",
+			"id" : 1394,
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Text Layer",
+			"opaquebackground" : false,
+			"origin" : "3306.98950 1087.57825 0.00000",
+			"padding" : 32,
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"pointsize" : 18.0,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "497.00000 88.00000",
+			"solid" : true,
+			"text" : "Art by: Gharliera",
+			"verticalalign" : "center",
+			"visible" : true
+		}
+	],
+	"version" : 1
+}

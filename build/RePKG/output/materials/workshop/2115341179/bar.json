@@ -1,0 +1,34 @@
+{
+	"passes" : 
+	[
+		{
+			"blending" : "translucent",
+			"combos" : 
+			{
+				"version" : 2
+			},
+			"constantshadervalues" : 
+			{
+				" ‏‏‎ " : 0.0,
+				" ‏‏‎  ‏‏‎  ‏‏‎ " : 0.0,
+				"Alpha" : 
+				{
+					"user" : "visualizeralpha",
+					"value" : 1
+				},
+				"Bright" : 1.0,
+				"Power" : 1.0,
+				"color" : 
+				{
+					"script" : "'use strict';\n\nimport * as WEColor from 'WEColor';\n\nlet rainbowSpeed = 1;\nlet rainbowSaturation = 1;\nlet rainbowBrightness = 1;\n\n/**\n * @param {Vec3} value\n */\nexport function update(value) {\n\n\tvalue = WEColor.hsv2rgb({\n\t\tx: Date.now() / 2000 * rainbowSpeed % 1,\n\t\ty: rainbowSaturation,\n\t\tz: rainbowBrightness\n\t});\n\t\n\treturn value;\n}\n",
+					"value" : "1.00000 1.00000 1.00000"
+				}
+			},
+			"cullmode" : "nocull",
+			"depthtest" : "disabled",
+			"depthwrite" : "disabled",
+			"shader" : "workshop/2115341179/tint",
+			"textures" : [ "workshop/2115341179/bar" ]
+		}
+	]
+}
